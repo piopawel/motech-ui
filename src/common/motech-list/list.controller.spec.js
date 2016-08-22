@@ -7,6 +7,7 @@ describe('List Controller', function () {
         controller = $controller('MotechListController', {$scope: scope});
     }));
 
+
     it('should add column', function(){
         controller.addColumn('foo', 'bar', true);
         expect(controller.columns[0].id).toEqual('foo');

@@ -14,6 +14,7 @@ describe('List-item directive', function(){
         $compile(element)(scope);
         scope.$digest();
     }));
+    
 
     it('should insert a list element with a class="list-item"', function(){
         expect(element.find('li.list-item').attr('class')).toBeDefined();
