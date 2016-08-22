@@ -15,7 +15,6 @@ describe('List directive', function(){
         scope.$digest();
     }));
 
-
     it('should replace tagname MOTECH-LIST with SECTION', function(){
         expect(element.prop("tagName")).toEqual("SECTION");
     });

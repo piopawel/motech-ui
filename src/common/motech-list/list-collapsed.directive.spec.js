@@ -12,7 +12,6 @@ describe('List-collapsed directive', function(){
         scope.$digest();
     }));
 
-
     it('should add a div element with class="motech-list-collapsible', function(){
         var collapsibleElement = element.find('div.motech-list-collapsible');
         expect(collapsibleElement.attr('class')).toBeDefined();
